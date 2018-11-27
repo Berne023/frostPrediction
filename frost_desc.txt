@@ -1,0 +1,27 @@
+frostobs	target variable, frost. 1 if yes. 0 if no.
+tobs	target variable, temperature
+indic	id of the station
+name	name of the station
+alti	altitude
+date	date
+flevap	evaporation on the ground (kg/m^2)
+flir	infra-red radiation (J/m^2) 
+fllat	latent heat flux (J/m^2)
+hu1000	humidity at 1000m (%)
+hu2	humidity at 2m (%) 
+nb	cloud covering (bottom)
+nc	cloud covering of cuneiform cloud
+nh	cloud covering (up)
+nm	total cloud covering
+ntHm3	cloud covering (middle)
+nt	total cloud covering
+pmer	sea pressure (hPa)
+rrcv	convective rain (i.e. coming from convective effect) (mm)
+rrge	large scale rain (mm)
+sncv	convective snow (mm)
+snge	snow (large scale) (mm)
+gradt1	vertical gradient of temperature between 2 and 1000m
+tprev	predicted temperature at 2m (do not use directly in the model)
+ff	power of the wind (m/s) 
+month	month of the year
+ddf 	wind direction (E O N S). If no wind (ff < 1ms), ddf=C
